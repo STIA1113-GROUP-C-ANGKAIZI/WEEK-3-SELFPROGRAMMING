@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class PrecedenceQuestions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\'9 / 5\' the answer is " + (9/5));
+		System.out.println("\'695 % 20\' the answer is " + (695%20));
+		System.out.println("\'7 + 6 * 5\' the answer is " + (7+6*5));
+		System.out.println("\'7 * 6 + 5\' the answer is " + (7*6+5));
+		System.out.println("\'248 % 100 / 5\' the answer is " + (248%100/5));
+		System.out.println("\'6 * 3 - 9 / 4\' the answer is " + (6*3-9/4));
+		System.out.println("\'(5 - 7) * 4\' the answer is " + ((5-7)*4));
+		System.out.println("\'6 + (18 % (17 - 12))\' the answer is " + (6+(18%(17-12))));
+	}
+
+}
+
+Output:
+'9 / 5' the answer is 1
+'695 % 20' the answer is 15
+'7 + 6 * 5' the answer is 37
+'7 * 6 + 5' the answer is 47
+'248 % 100 / 5' the answer is 9
+'6 * 3 - 9 / 4' the answer is 16
+'(5 - 7) * 4' the answer is -8
+'6 + (18 % (17 - 12))' the answer is 9
