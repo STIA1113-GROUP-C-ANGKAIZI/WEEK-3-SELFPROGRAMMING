@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class IntegerRemainderExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("The result of 45 % 6 is " + (45%6));
+		System.out.println("The result of 2 % 2 is " + (2%2));
+		System.out.println("The result of 8 % 20 is " + (8%20));
+		System.out.println("The result of 11 % 0 is " + (11%0));
+			//0 causes a runtime error in program.
+			//Slide 37
+	}
+
+}
+
+Output:
+The result of 45 % 6 is 3
+The result of 2 % 2 is 0
+The result of 8 % 20 is 8
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at selfProgramming.IntegerRemainderExercise.main(IntegerRemainderExercise.java:11)
