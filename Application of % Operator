@@ -1,0 +1,19 @@
+package selfProgramming;
+
+public class ApplicationoOfPercentageSimbol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("From 230857, obtain the 7, the answer is 230857%10 = " + 230857%10);
+		System.out.println("\nFrom 658236489, obtain the 6489, the answer is 658236489%10000 = " + 658236489%10000);
+		System.out.println("\nFrom 7342, obtain the 4, the answer is (7342/10)%10 = " + (7342/10)%10);
+	}
+
+}
+
+Output:
+From 230857, obtain the 7, the answer is 230857%10 = 7
+
+From 658236489, obtain the 6489, the answer is 658236489%10000 = 6489
+
+From 7342, obtain the 4, the answer is (7342/10)%10 = 4
