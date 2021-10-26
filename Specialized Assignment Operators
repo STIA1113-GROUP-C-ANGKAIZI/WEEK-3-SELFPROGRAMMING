@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class SpecializedAssignmentOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 4;
+		int resultA = 3 * (++a);
+		int resultB = 3 * (a++);
+		int resultC = 3 * (a--);
+		int resultD = 3 * (--a);
+		
+		System.out.println(resultA);
+		System.out.println(resultB);
+		System.out.println(resultC);
+		System.out.println(resultD);
+	}
+
+}
+
+Output:
+15
+15
+18
+12
