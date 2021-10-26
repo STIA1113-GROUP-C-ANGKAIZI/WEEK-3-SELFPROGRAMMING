@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class Overflow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		long oneThousand = 1000;
+		long oneMillion = 1000 * oneThousand;
+		long oneBillion = 1000 * oneMillion;
+		long fourBillion = 4 * oneBillion;
+		System.out.println(fourBillion); 
+		//The answer be -294967296 when use int
+		//Max. value for int is +2,147,483,647.
+		//So, use long or double
+		
+	
+	}
+
+}
+
+Output:
+4000000000
