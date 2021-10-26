@@ -1,0 +1,48 @@
+package selfProgramming;
+
+public class RealNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double a, b, c, d, e;
+		
+	//Real number double
+		System.out.println("Real Number (Double)");
+		a = 15.0 / 2.0;
+		System.out.println("The answer of a is " + a);
+		
+		b = 2.0 * 2.4 + 2.25 * 4.0 / 2.0;
+		System.out.println("The answer of b is " + b);
+		System.out.println();
+		
+	//Real number precision
+		System.out.println("Real Number Precision");
+		System.out.println((35.0 + 22.4 + 11.9)/ 3.0);
+		System.out.println((65.0 + 30.7 + 20.5)/ 6.0);
+		
+	//Mix integers and reals
+		System.out.println("\nMix integers and reals");
+		c = 3 * 4.2;
+		System.out.println("The answer of c is " + c);
+		d = 1 + 1.0;
+		System.out.println("The answer of d is " + d);
+		e = 2.0 + 10 / 3 * 2.5 - 6 / 4;
+		System.out.println("The answer of e is " + e);
+		
+	}
+
+}
+
+Output:
+Real Number (Double)
+The answer of a is 7.5
+The answer of b is 9.3
+
+Real Number Precision
+23.099999999999998
+19.366666666666667
+
+Mix integers and reals
+The answer of c is 12.600000000000001
+The answer of d is 2.0
+The answer of e is 8.5
