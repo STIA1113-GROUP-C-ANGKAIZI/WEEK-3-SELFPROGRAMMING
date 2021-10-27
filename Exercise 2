@@ -1,0 +1,63 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		double cgpa;
+		char gred;
+		int number1;
+		int number2;
+		int number3 = 33 ;
+		int number4 = 44 ;
+		int number5 = 55 ;
+		int number6 = 66 ;
+		int sum;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your name:");
+		name = scanMe.nextLine();
+		System.out.println("Enter your cgpa:");
+		cgpa = scanMe.nextDouble();
+		System.out.println("Enter your gred for Math in SPM: ");
+		gred = scanMe.next().charAt(0);
+		System.out.println("Enter Number1:");
+		number1 = scanMe.nextInt();
+		System.out.println("Enter Number2:");
+		number2 = scanMe.nextInt();
+		
+		System.out.println("Name : " + name);
+		System.out.println("CGPA : " + cgpa);
+		System.out.println("GRED MATH SPM : " + gred);
+		System.out.println("Number1 = " + number1 );
+		System.out.println("Number2 = " + number2 );
+		
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		
+		System.out.print("The sum is ");
+		System.out.println(sum);
+	}
+
+}
+
+Output:
+Enter your name:
+ANG KAI ZI
+Enter your cgpa:
+3.59
+Enter your gred for Math in SPM: 
+A
+Enter Number1:
+11
+Enter Number2:
+22
+Name : ANG KAI ZI
+CGPA : 3.59
+GRED MATH SPM : A
+Number1 = 11
+Number2 = 22
+The sum is 231
